@@ -470,3 +470,17 @@ ArgumentError ('' is not a supported controller name. This can lead to potential
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.3ms)
+
+
+Started GET "/hello_world" for 72.89.52.223 at 2018-06-27 13:30:48 +0000
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: 'hello_world'` to `controller: 'hello_world'`. (called from block in <top (required)> at /home/PetyaDjanovska/rails-hello-world-lab-v-000/config/routes.rb:11)
+
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  config/routes.rb:11:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.1ms)
