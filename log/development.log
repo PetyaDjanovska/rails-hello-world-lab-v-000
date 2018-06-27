@@ -645,3 +645,9 @@ Started GET "/hello_world" for 72.89.52.223 at 2018-06-27 13:40:08 +0000
 Processing by StaticController#hello_world as HTML
   Rendered static/hello_world.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 72.89.52.223 at 2018-06-27 13:40:21 +0000
+Processing by StaticController#hello_world as HTML
+  Rendered static/hello_world.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
